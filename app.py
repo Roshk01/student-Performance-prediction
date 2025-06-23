@@ -61,21 +61,23 @@ else:
 
 
 input_data = pd.DataFrame({
-    "gender":[gender],
-    "group_B":[group_B],
-    "group_C":[group_C],
-    "group_D":[group_D],
-    "group_E":[group_E],
-    "parent_education_bachelor's degree":[bachelor],
-    "parent_education_high school":[highschool],
-    "parent_education_master's degree":[master],
-    "parent_education_some college":[some_college],
-    "parent_education_some high school":[some_school],
-    'lunch':[lunch],
-    'preparation':[test_preparation],
     'math score':[math_score],
     'reading score':[Reading_score],
-    'writing score':[Writing_score]
+    'writing score':[Writing_score],
+    'group_A':[group_A],
+    'group_B':[group_B],
+    'group_C':[group_C],
+    'group_D':[group_D],
+    'group_E':[group_E],
+    'associate':[associate],
+    'bachelor':[bachelor],
+    'high_school':[highschool],
+    'master':[master],
+    'some_college':[some_college],
+    'some_school':[some_school],
+    'gender':[gender],
+    'lunch_standard':[lunch],
+    'preparation':[test_preparation]
 })
 
 
